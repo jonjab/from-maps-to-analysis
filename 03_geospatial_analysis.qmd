@@ -34,7 +34,12 @@ With a raster calculation.
 Example analysis: maybe your friend is really afraid of heights, and wants to make sure that the route doesn't include super steep drop offs. 
 
 1. buffer 30 meters around the streets
+1. There's a chance to teach about credits here. The buffer costs 2.x credits.
+1. gotcha: layers much have unique names across the organization.
+So use your initials in this step. `sb_jj_roads_buffer`
+1. Find clusters of large values in the pixels that lay underneath the buffer.
 1. highlight any intersection with areas where there are large numbers of very steep pixels nearby.
+1. Cutting a raster to a mask is called `nibbling`
 
 
 ### another
